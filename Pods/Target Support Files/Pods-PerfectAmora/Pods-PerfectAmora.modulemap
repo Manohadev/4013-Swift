@@ -1,0 +1,6 @@
+module Pods_PerfectAmora {
+  umbrella header "Pods-PerfectAmora-umbrella.h"
+
+  export *
+  module * { export * }
+}

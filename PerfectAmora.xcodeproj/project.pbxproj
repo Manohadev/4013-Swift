@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72D3AE362F1EC5820087DB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D3AE312F1EC5820087DB02 /* Assets.xcassets */; };
+		72D3AE382F1EC5820087DB02 /* PerfectAmoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE342F1EC5820087DB02 /* PerfectAmoraApp.swift */; };
+		72D3AE432F1EC5CE0087DB02 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE3C2F1EC5CE0087DB02 /* ShapeStyle+Extensions.swift */; };
+		72D3AE442F1EC5CE0087DB02 /* PAHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE3E2F1EC5CE0087DB02 /* PAHomeWebView.swift */; };
+		72D3AE452F1EC5CE0087DB02 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE3A2F1EC5CE0087DB02 /* View+Extensions.swift */; };
+		72D3AE462F1EC5CE0087DB02 /* PALaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE402F1EC5CE0087DB02 /* PALaunchView.swift */; };
+		72D3AE472F1EC5CE0087DB02 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE3B2F1EC5CE0087DB02 /* Color+Extensions.swift */; };
+		72D3AE4A2F1EC7DB0087DB02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72D3AE492F1EC7DB0087DB02 /* GoogleService-Info.plist */; };
+		72D3AE4D2F1EC81A0087DB02 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE4C2F1EC81A0087DB02 /* AppEntryPoint.swift */; };
+		72D3AE4E2F1EC81A0087DB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE4B2F1EC81A0087DB02 /* AppDelegate.swift */; };
+		72D3AE572F1EC8380087DB02 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE522F1EC8380087DB02 /* UserAgentBuilder.swift */; };
+		72D3AE582F1EC8380087DB02 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE552F1EC8380087DB02 /* WebSheetViewController.swift */; };
+		72D3AE592F1EC8380087DB02 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE542F1EC8380087DB02 /* WebViewCoordinator.swift */; };
+		72D3AE5A2F1EC8380087DB02 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE532F1EC8380087DB02 /* WebViewContainer.swift */; };
+		72D3AE5B2F1EC8380087DB02 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE4F2F1EC8380087DB02 /* PrivacyView.swift */; };
+		72D3AE5C2F1EC8380087DB02 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 72D3AE512F1EC8380087DB02 /* index.html */; };
+		72D3AE5E2F1EC8430087DB02 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3AE5D2F1EC8430087DB02 /* TextScreen.swift */; };
+		FB678EBEA8D90CB72528A422 /* libPods-PerfectAmora.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E6FD005359921075B29C65 /* libPods-PerfectAmora.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72D3AE222F1EC5770087DB02 /* PerfectAmora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectAmora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D3AE312F1EC5820087DB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D3AE342F1EC5820087DB02 /* PerfectAmoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAmoraApp.swift; sourceTree = "<group>"; };
+		72D3AE3A2F1EC5CE0087DB02 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72D3AE3B2F1EC5CE0087DB02 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72D3AE3C2F1EC5CE0087DB02 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72D3AE3E2F1EC5CE0087DB02 /* PAHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAHomeWebView.swift; sourceTree = "<group>"; };
+		72D3AE402F1EC5CE0087DB02 /* PALaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PALaunchView.swift; sourceTree = "<group>"; };
+		72D3AE482F1EC6A00087DB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		72D3AE492F1EC7DB0087DB02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72D3AE4B2F1EC81A0087DB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72D3AE4C2F1EC81A0087DB02 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		72D3AE4F2F1EC8380087DB02 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		72D3AE512F1EC8380087DB02 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		72D3AE522F1EC8380087DB02 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		72D3AE532F1EC8380087DB02 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		72D3AE542F1EC8380087DB02 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		72D3AE552F1EC8380087DB02 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		72D3AE5D2F1EC8430087DB02 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		72D3AE5F2F1EC98D0087DB02 /* PerfectAmora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PerfectAmora.entitlements; sourceTree = "<group>"; };
+		D449D8BE61FC4814F22DBA66 /* Pods-PerfectAmora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectAmora.debug.xcconfig"; path = "Target Support Files/Pods-PerfectAmora/Pods-PerfectAmora.debug.xcconfig"; sourceTree = "<group>"; };
+		D47C1C47425D1373B41ACB25 /* Pods-PerfectAmora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectAmora.release.xcconfig"; path = "Target Support Files/Pods-PerfectAmora/Pods-PerfectAmora.release.xcconfig"; sourceTree = "<group>"; };
+		F5E6FD005359921075B29C65 /* libPods-PerfectAmora.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerfectAmora.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D3AE1F2F1EC5770087DB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB678EBEA8D90CB72528A422 /* libPods-PerfectAmora.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		552733DF2A51D25444A128E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D449D8BE61FC4814F22DBA66 /* Pods-PerfectAmora.debug.xcconfig */,
+				D47C1C47425D1373B41ACB25 /* Pods-PerfectAmora.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72D3AE192F1EC5770087DB02 = {
+			isa = PBXGroup;
+			children = (
+				72D3AE352F1EC5820087DB02 /* PerfectAmora */,
+				72D3AE232F1EC5770087DB02 /* Products */,
+				552733DF2A51D25444A128E8 /* Pods */,
+				BEC87EBE3F504CDFEC040A3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72D3AE232F1EC5770087DB02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE222F1EC5770087DB02 /* PerfectAmora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D3AE352F1EC5820087DB02 /* PerfectAmora */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE5F2F1EC98D0087DB02 /* PerfectAmora.entitlements */,
+				72D3AE482F1EC6A00087DB02 /* Info.plist */,
+				72D3AE492F1EC7DB0087DB02 /* GoogleService-Info.plist */,
+				72D3AE3D2F1EC5CE0087DB02 /* Extensions */,
+				72D3AE422F1EC5CE0087DB02 /* Screens */,
+				72D3AE392F1EC5870087DB02 /* App */,
+				72D3AE312F1EC5820087DB02 /* Assets.xcassets */,
+			);
+			path = PerfectAmora;
+			sourceTree = "<group>";
+		};
+		72D3AE392F1EC5870087DB02 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE4B2F1EC81A0087DB02 /* AppDelegate.swift */,
+				72D3AE4C2F1EC81A0087DB02 /* AppEntryPoint.swift */,
+				72D3AE342F1EC5820087DB02 /* PerfectAmoraApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72D3AE3D2F1EC5CE0087DB02 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE5D2F1EC8430087DB02 /* TextScreen.swift */,
+				72D3AE3A2F1EC5CE0087DB02 /* View+Extensions.swift */,
+				72D3AE3B2F1EC5CE0087DB02 /* Color+Extensions.swift */,
+				72D3AE3C2F1EC5CE0087DB02 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72D3AE3F2F1EC5CE0087DB02 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE3E2F1EC5CE0087DB02 /* PAHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72D3AE412F1EC5CE0087DB02 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE402F1EC5CE0087DB02 /* PALaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72D3AE422F1EC5CE0087DB02 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE502F1EC8380087DB02 /* PrivacyScreen */,
+				72D3AE562F1EC8380087DB02 /* Web */,
+				72D3AE3F2F1EC5CE0087DB02 /* HomeWebScreen */,
+				72D3AE412F1EC5CE0087DB02 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		72D3AE502F1EC8380087DB02 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE4F2F1EC8380087DB02 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
+		72D3AE562F1EC8380087DB02 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				72D3AE512F1EC8380087DB02 /* index.html */,
+				72D3AE522F1EC8380087DB02 /* UserAgentBuilder.swift */,
+				72D3AE532F1EC8380087DB02 /* WebViewContainer.swift */,
+				72D3AE542F1EC8380087DB02 /* WebViewCoordinator.swift */,
+				72D3AE552F1EC8380087DB02 /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		BEC87EBE3F504CDFEC040A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6FD005359921075B29C65 /* libPods-PerfectAmora.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D3AE212F1EC5770087DB02 /* PerfectAmora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D3AE2E2F1EC5790087DB02 /* Build configuration list for PBXNativeTarget "PerfectAmora" */;
+			buildPhases = (
+				62433DECE7EBB8C45C716F70 /* [CP] Check Pods Manifest.lock */,
+				72D3AE1E2F1EC5770087DB02 /* Sources */,
+				72D3AE1F2F1EC5770087DB02 /* Frameworks */,
+				72D3AE202F1EC5770087DB02 /* Resources */,
+				167658F330F595FF4A6B5C54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectAmora;
+			productName = PerfectAmora;
+			productReference = 72D3AE222F1EC5770087DB02 /* PerfectAmora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D3AE1A2F1EC5770087DB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72D3AE212F1EC5770087DB02 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72D3AE1D2F1EC5770087DB02 /* Build configuration list for PBXProject "PerfectAmora" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72D3AE192F1EC5770087DB02;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 72D3AE232F1EC5770087DB02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D3AE212F1EC5770087DB02 /* PerfectAmora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D3AE202F1EC5770087DB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D3AE5C2F1EC8380087DB02 /* index.html in Resources */,
+				72D3AE362F1EC5820087DB02 /* Assets.xcassets in Resources */,
+				72D3AE4A2F1EC7DB0087DB02 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167658F330F595FF4A6B5C54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerfectAmora/Pods-PerfectAmora-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerfectAmora/Pods-PerfectAmora-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerfectAmora/Pods-PerfectAmora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62433DECE7EBB8C45C716F70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectAmora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D3AE1E2F1EC5770087DB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D3AE382F1EC5820087DB02 /* PerfectAmoraApp.swift in Sources */,
+				72D3AE4D2F1EC81A0087DB02 /* AppEntryPoint.swift in Sources */,
+				72D3AE4E2F1EC81A0087DB02 /* AppDelegate.swift in Sources */,
+				72D3AE432F1EC5CE0087DB02 /* ShapeStyle+Extensions.swift in Sources */,
+				72D3AE442F1EC5CE0087DB02 /* PAHomeWebView.swift in Sources */,
+				72D3AE452F1EC5CE0087DB02 /* View+Extensions.swift in Sources */,
+				72D3AE462F1EC5CE0087DB02 /* PALaunchView.swift in Sources */,
+				72D3AE572F1EC8380087DB02 /* UserAgentBuilder.swift in Sources */,
+				72D3AE5E2F1EC8430087DB02 /* TextScreen.swift in Sources */,
+				72D3AE582F1EC8380087DB02 /* WebSheetViewController.swift in Sources */,
+				72D3AE592F1EC8380087DB02 /* WebViewCoordinator.swift in Sources */,
+				72D3AE5A2F1EC8380087DB02 /* WebViewContainer.swift in Sources */,
+				72D3AE5B2F1EC8380087DB02 /* PrivacyView.swift in Sources */,
+				72D3AE472F1EC5CE0087DB02 /* Color+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72D3AE2C2F1EC5790087DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72D3AE2D2F1EC5790087DB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72D3AE2F2F1EC5790087DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D449D8BE61FC4814F22DBA66 /* Pods-PerfectAmora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PerfectAmora/PerfectAmora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectAmora/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Perfect Amora";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manohaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72D3AE302F1EC5790087DB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47C1C47425D1373B41ACB25 /* Pods-PerfectAmora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PerfectAmora/PerfectAmora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectAmora/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Perfect Amora";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manohaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D3AE1D2F1EC5770087DB02 /* Build configuration list for PBXProject "PerfectAmora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D3AE2C2F1EC5790087DB02 /* Debug */,
+				72D3AE2D2F1EC5790087DB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D3AE2E2F1EC5790087DB02 /* Build configuration list for PBXNativeTarget "PerfectAmora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D3AE2F2F1EC5790087DB02 /* Debug */,
+				72D3AE302F1EC5790087DB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72D3AE1A2F1EC5770087DB02 /* Project object */;
+}
